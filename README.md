@@ -10,13 +10,14 @@ https://bitbucket.org/iBotPeaches/apktool/downloads
 http://jd.benow.ca
 
 - How to install apktool(on Mac OSX)  
-http://ibotpeaches.github.io/Apktool/install  
-1. Download Mac wrapper script (Right click, Save Link As apktool)  
-2. Download apktool-2 (find newest here)  
-3. Rename downloaded jar to apktool.jar  
-4. Move both files (apktool.jar & apktool) to /usr/local/bin (root needed)  
-5. Make sure both files are executable (chmod + x)  
-6. Try running "apktool" command via cli  
+http://ibotpeaches.github.io/Apktool/install
+  
+Download Mac wrapper script (Right click, Save Link As apktool)  
+Download apktool-2 (find newest here)  
+Rename downloaded jar to apktool.jar  
+Move both files (apktool.jar & apktool) to /usr/local/bin (root needed)  
+Make sure both files are executable (chmod + x)  
+Try running "apktool" command via cli  
 
 - How to use dex2jar-2.0
 
