@@ -8,6 +8,8 @@ http://sourceforge.net/projects/dex2jar/?source=typ_redirect
 https://bitbucket.org/iBotPeaches/apktool/downloads
 3. jd-gui
 http://jd.benow.ca
+4. enjarify (c.f. dex2jar-2.0)
+https://github.com/google/enjarify
 
 - How to install apktool(on Mac OSX)  
 http://ibotpeaches.github.io/Apktool/install
@@ -24,6 +26,9 @@ Try running "apktool" command via cli
 first, you should do:  
 chmod 777 *.sh
 
+- How to use enjarify
+python3 -O -m enjarify.main yourapp.apk
+
 # 1ST PART(*.java source code)
 
 1. download source tmp.apk from:  
@@ -34,7 +39,9 @@ http://www.wandoujia.com/
 1. cd dex2jar-2.0/  
 2. ./d2j-dex2jar.sh ../tmp.apk  
 3. RESULT:  
-../tmp.apk -> ./tmp-dex2jar.jar 
+../tmp.apk -> ./tmp-dex2jar.jar
+
+(or use enjarify)
   
 - USING jd-gui  
 
